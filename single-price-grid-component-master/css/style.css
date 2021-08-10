@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  background-color: #e5eff5;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 45em;
+  border-radius: 6px;
+  box-shadow: 2px 3px 10px 0px #737e8f;
+}
+
+.white {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  padding-top: 1em;
+  background-color: white;
+  border: 2px solid inherit;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.white h1 {
+  color: #2ab2af;
+}
+
+.white h3 {
+  color: #c0df34;
+  margin-top: -0.1em;
+}
+
+.white p {
+  color: #98a6bd;
+  margin-top: -0.1em;
+  line-height: 1.5em;
+  width: 85%;
+}
+
+.green-half {
+  display: flex;
+  flex-direction: row;
+  color: #e5eff5;
+}
+
+.green {
+  background-color: #2ab2af;
+  padding: 2em;
+  padding-top: 1em;
+  width: 70em;
+  border: 2px solid inherit;
+  border-bottom-left-radius: 6px;
+}
+
+.green h1 {
+  display: inline;
+}
+
+.green button {
+  margin-top: 1em;
+  width: 83%;
+  height: 3em;
+  background-color: #c0df34;
+  color: #e5eff5;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px 0px #3a8d8c;
+}
+
+.green button:active {
+  opacity: 0.5;
+}
+
+.month {
+  opacity: 0.5;
+  display: inline;
+  margin-left: 0.5em;
+}
+
+.half {
+  background-color: #54cac8;
+  padding: 2em;
+  padding-top: 1em;
+  border: 2px solid inherit;
+  border-bottom-right-radius: 6px;
+}
+
+.half p {
+  width: 80%;
+  line-height: 1.5em;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 1000px) {
+  .box {
+    width: 22.5em;
+  }
+  .white {
+    padding-left: 1.5em;
+  }
+  .white h1 {
+    font-size: 1.5em;
+  }
+  .white h3 {
+    font-size: 1.1em;
+    margin-top: 1em;
+  }
+  .white p {
+    width: 100%;
+    padding-right: none;
+    margin-top: 0.5em;
+    line-height: 1.8em;
+  }
+  .green-half {
+    flex-direction: column;
+  }
+  .green {
+    width: unset;
+    padding-left: 1.5em;
+    border-radius: unset;
+  }
+  .green button {
+    width: 100%;
+  }
+  .half {
+    padding-left: 1.5em;
+    border-bottom-left-radius: 6px;
+  }
+  .half p {
+    width: 70.1%;
+  }
+}
