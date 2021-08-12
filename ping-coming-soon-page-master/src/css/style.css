@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 40em;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 27em;
+  height: 3.25em;
+  border-radius: 26px;
+  border: 1px solid #c2d3ff;
+  outline: none;
+  padding-left: 2em;
+  margin-left: 3em;
+}
+
+input::placeholder {
+  color: #c2d3ff;
+}
+
+.false {
+  border-color: #ff5263;
+}
+
+.success {
+  border-color: green;
+}
+
+.false-message {
+  color: #ff5263;
+  display: absolute;
+  font-size: 0.8em;
+  line-height: 0.1em;
+  margin-left: 5em;
+}
+
+.success-message {
+  color: green;
+  display: absolute;
+  font-size: 0.8em;
+  line-height: 0.1em;
+  margin-left: 5em;
+}
+
+button {
+  margin-left: 1em;
+  background-color: #4f7df3;
+  border: none;
+  border-radius: 26px;
+  color: white;
+  width: 14em;
+  height: 3.5em;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px 0px #c2d3ff;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+li {
+  list-style-type: none;
+}
+
+.title {
+  display: flex;
+  font-weight: 700;
+}
+
+.ping {
+  text-transform: uppercase;
+  margin-top: 1em;
+  font-size: 2em;
+  color: #151f29;
+}
+
+.dot {
+  color: #4f7df3;
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+.text {
+  color: #969696;
+  font-weight: 300;
+  font-size: 3em;
+  white-space: nowrap;
+}
+
+.soon {
+  margin-left: 0.3em;
+  font-size: 3em;
+  color: #151f29;
+}
+
+.text2 {
+  font-size: 1.2em;
+  margin-top: -0.1em;
+  margin-left: 2em;
+}
+
+.dashboard {
+  width: 40em;
+  margin-top: 2em;
+}
+
+.list-image {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+  width: 10em;
+  color: crimson;
+}
+
+.facebook {
+  width: 2.5em;
+  cursor: pointer;
+}
+
+.facebook circle {
+  color: white;
+}
+
+.facebook path {
+  color: #4f7df3;
+}
+
+.facebook:hover circle {
+  color: #4f7df3;
+}
+
+.facebook:hover path {
+  color: white;
+}
+
+.twitter2 {
+  width: 2.5em;
+  cursor: pointer;
+}
+
+.twitter2 circle {
+  color: white;
+}
+
+.twitter2 path {
+  color: #4f7df3;
+}
+
+.twitter2:hover circle {
+  color: #4f7df3;
+}
+
+.twitter2:hover path {
+  color: white;
+}
+
+.insta {
+  width: 2.5em;
+  cursor: pointer;
+}
+
+.insta circle {
+  color: white;
+}
+
+.insta path {
+  color: #4f7df3;
+}
+
+.insta:hover circle {
+  color: #4f7df3;
+}
+
+.insta:hover path {
+  color: white;
+}
+
+.footer {
+  color: #969696;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    margin-left: -2.5em;
+  }
+  .text {
+    font-size: 2em;
+  }
+  .text2 {
+    margin-left: -0.1em;
+  }
+  .soon {
+    font-size: 2em;
+  }
+  .form {
+    flex-direction: column;
+    align-items: center;
+    width: 22.5em;
+  }
+  input {
+    margin-left: 0em;
+    width: 24em;
+  }
+  button {
+    margin-left: 0em;
+    margin-top: 1em;
+    width: 26em;
+  }
+  .dashboard {
+    margin-left: 0.5em;
+    margin-top: 3em;
+    width: 22em;
+  }
+  .list-image {
+    margin-top: 8em;
+  }
+}
