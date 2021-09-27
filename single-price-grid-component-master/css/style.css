@@ -12,13 +12,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .box {
   width: 45em;
   border-radius: 6px;
   box-shadow: 2px 3px 10px 0px #737e8f;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .white {
@@ -32,13 +34,17 @@ body {
   border-top-right-radius: 6px;
 }
 
-.white h1 {
+.h1-white {
   color: #2ab2af;
+  font-size: 2.5em;
+  padding-top: 0.5em;
+  font-weight: 700;
 }
 
-.white h3 {
+.h3-white {
   color: #c0df34;
-  margin-top: -0.1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .white p {
@@ -63,8 +69,16 @@ body {
   border-bottom-left-radius: 6px;
 }
 
-.green h1 {
+.h3-green {
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+.h1-green {
   display: inline;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 .green button {
@@ -99,6 +113,11 @@ body {
   border-bottom-right-radius: 6px;
 }
 
+.h3-half {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
 .half p {
   width: 80%;
   line-height: 1.5em;
@@ -112,10 +131,10 @@ body {
   .white {
     padding-left: 1.5em;
   }
-  .white h1 {
+  .h1-white {
     font-size: 1.5em;
   }
-  .white h3 {
+  .h3-white {
     font-size: 1.1em;
     margin-top: 1em;
   }
